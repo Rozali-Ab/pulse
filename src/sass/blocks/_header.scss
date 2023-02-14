@@ -35,3 +35,21 @@
 		}
 	}
 }
+@media (max-width: 575px){
+	.header {
+		&__logo {
+			width: 200px;
+		}
+		&__official {
+			span {
+				font-size: 15px;
+			}
+		}
+		&__contacts {
+			justify-content: space-around;
+		}
+		&__phone {
+			font-size: 16px;
+		}
+	}
+}
