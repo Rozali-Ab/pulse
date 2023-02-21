@@ -3,6 +3,10 @@
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
+body::-webkit-scrollbar {
+    width: 0;
+}
+
 .container {
     max-width: 950px;
     margin: 0 auto;
@@ -17,3 +21,4 @@
 @import 'blocks/forms';
 @import 'blocks/carousel';
 @import 'blocks/catalog';
+@import 'blocks/footer';
