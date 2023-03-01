@@ -1,3 +1,8 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+
+@import 'blocks/animations';
 @import 'base/variables';
 @import 'base/mixins';
 * {
@@ -6,7 +11,6 @@
 body::-webkit-scrollbar {
     width: 0;
 }
-
 .container {
     max-width: 950px;
     margin: 0 auto;

@@ -16,6 +16,15 @@
         img {
             display: block;
             max-width: 70px;
+        }
+        &_heart {
+            animation: heartbeat 1.5s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+        &_shoe {
+            animation: shoerotation 3s ease-in-out infinite;
         }  
     }
     &__subtitle {
