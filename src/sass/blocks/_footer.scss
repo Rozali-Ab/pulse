@@ -53,3 +53,24 @@
         }
     }
 }
+
+@media (max-width: 575px){
+    .footer {
+        font-size: 16px;
+        &__info {
+            width: 60vw;
+            height: 20vh;
+            padding: 5px;
+        }
+        &__phone {
+            margin-top: 10px;
+            font-weight: 500;
+        }
+        &__social {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
