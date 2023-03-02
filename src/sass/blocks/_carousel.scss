@@ -23,10 +23,10 @@
     }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
     .carousel {
         &__inner {
-            max-width: 100vw;
+            max-width: 98%;
             img {
                 max-width: 99%;
             }

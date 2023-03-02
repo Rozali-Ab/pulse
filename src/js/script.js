@@ -7,7 +7,7 @@ $(document).ready(function(){
         nextArrow: '<button type="button" class="slick-next"><img src="icons/nextArrow.png"></button>',
         responsive: [
             {
-                breakpoint: 575,
+                breakpoint: 768,
                 settings: {
                     arrows: false
                 }
