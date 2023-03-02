@@ -51,3 +51,13 @@
 #consultation, #order, #thanks {
     display: none;
 }
+
+@media (max-width: 575px) {
+    .modal {
+        width: 350px;
+        padding: 20px 20px 20px 20px;
+        &__close {
+            right: -30px;
+        }
+    }
+}
